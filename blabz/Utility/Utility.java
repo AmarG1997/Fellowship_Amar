@@ -570,7 +570,7 @@ public class Utility {
 		newNode.data=d;
 		newNode.next=top;
 		top=newNode;
-		System.out.println("top"+top.data);
+		//System.out.println("top"+top.data);
 		return null;
 		
 	}
@@ -981,7 +981,7 @@ public class Utility {
 	public static  int[] primeno()
 	{
 			int count;
-	        int prime[]=new int[169];
+	        int prime[]=new int[168];
 	        int size=0;
 	        int n=1000;
 			 for(int j=2;j<=n;j++)
